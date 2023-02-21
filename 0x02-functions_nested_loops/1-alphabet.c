@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main -  prints form a to z
- * Return: Always 0 (Success)
+ * print_alphabet - Entry point
+ * Return:0
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -15,5 +16,5 @@ int main(void)
 
 	}
 	_putchar('\n');
-	return (0);
+
 }
